@@ -29,7 +29,7 @@ body {
 }
 
 .App {
-  background-image: linear-gradient($light-gray, rgba($purple, 0.1));
+  background-image: linear-gradient($light-gray, rgba($purple, 0.05));
   min-height: 100vh;
   &-page {
       display: flex;

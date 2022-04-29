@@ -27,7 +27,7 @@ const SignUp = () => {
         </Form>
       </div>
 
-      <p className="auth-page__TandC">
+      <p className="auth-page__text">
         By clicking this, you agree to our Data privacy terms and conditions
       </p>
     </div>
