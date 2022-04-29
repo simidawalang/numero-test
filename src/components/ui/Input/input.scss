@@ -1,0 +1,13 @@
+.input {
+  & input {
+    padding: 20px;
+    border-radius: 9px;
+    border: 1px solid $purple-stroke;
+    font-size: 1rem;
+  }
+
+  &-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

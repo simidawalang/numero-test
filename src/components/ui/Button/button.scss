@@ -1,0 +1,10 @@
+.btn {
+    border-radius: 9px;
+    padding: 20px;
+    text-transform: capitalize;
+    &.purple {
+        background-color: $purple;
+        border: 1px $purple;
+        color: $white;
+    }
+}

@@ -1,0 +1,34 @@
+$white: #ffffff;
+$light-gray: #e5e5e5;
+$black:  #04004D;
+
+$light-purple: #ebe9f6;
+$purple: #5F31B4;
+$purple-stroke: #BEABE3;
+
+$Poppins: 'Poppins', sans-serif;
+
+// Components
+@import "./components/layout/Navbar/navbar.scss";
+@import "./components/ui/Input/input.scss";
+@import "./components/ui/Button/button.scss";
+@import "./components/ui/Form/form.scss";
+
+// Pages
+@import "./pages/Home/home.scss";
+@import "./pages/Auth/auth.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: $Poppins;
+}

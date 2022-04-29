@@ -1,0 +1,9 @@
+.form {
+    background: $white;
+    padding: 20px;
+    border: 1px solid $purple-stroke;
+    border-radius: 9px;
+    & .input:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}

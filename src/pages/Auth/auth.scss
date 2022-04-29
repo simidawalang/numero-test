@@ -1,0 +1,36 @@
+.auth {
+  &-page {
+    width: 100vw;
+    height: 100vh;
+    &__navbar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px
+    }
+    &__header {
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 20px 0 40px 0;
+    }
+    &__form {
+      width: 570px;
+      margin: 40px auto 100px;
+      & .input input,
+      .btn {
+        width: 100%;
+      }
+      &-container {
+        position: relative;
+      }
+    }
+    &__TandC {
+      text-align: center;
+      width: 35ch;
+      margin: 40px auto;
+      position: relative;
+      bottom: 0;
+      color: rgba($purple, 0.45);
+    }
+  }
+}
