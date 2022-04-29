@@ -1,0 +1,41 @@
+.card {
+  // Sizes
+  &.sm {
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  &.md {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  &.lg {
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 2rem;
+  }
+
+  // Colors
+  &.purple {
+    background: $light-purple;
+    &.lg {
+      background: $purple;
+      color: $white;
+    }
+  }
+  &.dark-purple {
+    background: $dark-purple;
+    color: $white;
+  }
+  &.green {
+    &.md {
+        background: $light-green;
+    }
+  }
+  &-title {
+    font-size: 0.75rem;
+    &.lg {
+      font-size: 1.25rem;
+    }
+  }
+}

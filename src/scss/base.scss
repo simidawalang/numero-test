@@ -1,0 +1,37 @@
+$white: #ffffff;
+$light-gray: #e5e5e5;
+$black: #04004D;
+
+$light-purple: #ebe9f6;
+$purple-stroke: #beabe3;
+$purple: #5f31b4;
+$dark-purple: #3D2381;
+
+$light-green: #ECFDF5;
+$green: #059669;
+
+$Poppins: "Poppins", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: $Poppins;
+  color: $black;
+}
+
+.App {
+  background-image: linear-gradient($light-gray, rgba($purple, 0.1));
+  min-height: 100vh;
+  &-page {
+      display: flex;
+  }
+}

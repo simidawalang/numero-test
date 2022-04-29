@@ -1,0 +1,13 @@
+// Default styling 
+@import "./base.scss";
+
+// Components
+@import "../components/layout/Navbar/navbar.scss";
+@import "../components/ui/Input/input.scss";
+@import "../components/ui/Button/button.scss";
+@import "../components/ui/Form/form.scss";
+@import "../components/ui/Card/card.scss";
+
+// Pages
+@import "../pages/Home/home.scss";
+@import "../pages/Auth/auth.scss";
