@@ -2,11 +2,24 @@
   &-page {
     &__main {
       border-radius: 1rem;
-      padding: 20px;
       background: $white;
       display: grid;
       grid-template-columns: 2fr 1fr;
       flex-grow: 1;
+      & .transaction {
+        &-analytics {
+          border-right: 1px solid $light-gray;
+          padding: 40px;
+          &__chart {
+            border: 1px solid $light-gray;
+            padding: 20px;
+            border-radius: 9px;
+          }
+        }
+        &-analydashbcs, &-summary {
+          padding: 40px;
+        }
+      }
       & .account-summary {
         margin-top: 20px;
         & .card {

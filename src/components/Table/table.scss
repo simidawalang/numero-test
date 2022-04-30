@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    font-size: 0.75rem;
+    & th {
+        text-align: left;
+    }
+    & th, td {
+        padding: 10px;
+        color: $gray;
+    }
+    & p {
+        width: 100%;
+        font-weight: bold;
+    }
+    & .transaction-date {
+        border-top: 1px solid $gray;
+    }
+}
+
+.transaction-date {
+    font-size: 0.75rem;
+    padding: 10px;
+}

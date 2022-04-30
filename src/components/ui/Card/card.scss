@@ -1,4 +1,9 @@
 .card {
+  display: flex;
+
+  &-icon {
+    margin-right: 20px;
+  }
   // Sizes
   &.sm {
     border-radius: 6px;
@@ -7,7 +12,7 @@
   }
   &.md {
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 20px;
   }
   &.lg {
     border-radius: 15px;
@@ -29,7 +34,7 @@
   }
   &.green {
     &.md {
-        background: $light-green;
+      background: $light-green;
     }
   }
   &-title {

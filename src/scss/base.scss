@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 $white: #ffffff;
 $light-gray: #e5e5e5;
+$gray: #666473;
 $black: #04004D;
 
 $light-purple: #ebe9f6;
@@ -12,12 +20,6 @@ $green: #059669;
 
 $Poppins: "Poppins", sans-serif;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 a,
 a:hover {
   text-decoration: none;
@@ -29,9 +31,16 @@ body {
 }
 
 .App {
-  background-image: linear-gradient($light-gray, rgba($purple, 0.05));
+  background-image: linear-gradient($light-gray, rgba($purple, 0.1));
   min-height: 100vh;
   &-page {
       display: flex;
   }
+  & .page-title {
+    margin-bottom: 15px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
