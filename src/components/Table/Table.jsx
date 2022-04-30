@@ -15,7 +15,6 @@ const Table = () => {
           </tr>
         </thead>
       </table>
-
       <p className="transaction-date">Mar 26, 2021</p>
       <table>
         <tbody>

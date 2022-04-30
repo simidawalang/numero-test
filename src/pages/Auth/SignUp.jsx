@@ -2,15 +2,12 @@ import React from "react";
 import Form from "../../components/ui/Form/Form";
 import Input from "../../components/ui/Input/Input";
 import Button from "../../components/ui/Button/Button";
-import { Link } from "react-router-dom";
+import { SmallNav } from "../../components/layout/Navbar/Navbar";
 
 const SignUp = () => {
   return (
     <div className="auth-page">
-      <nav className="auth-page__navbar">
-        <a href="/">numero</a>
-        <Link to="/auth/signup">Sign in</Link>
-      </nav>
+     <SmallNav authPage/>
       <div className="auth-page__form-container">
         <h3 className="auth-page__header">
           Get your coperate <br /> business account for free

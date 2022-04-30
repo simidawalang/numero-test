@@ -60,13 +60,13 @@ const Navbar = () => {
   );
 };
 
-export const SmallNav = () => {
+export const SmallNav = ({authPage}) => {
   return (
     <nav className="auth-page__navbar">
       <Link to="/">
         <img src={logo} alt="Numero logo" width={110} />
       </Link>
-      <Link to="/auth/signup">tommy@gmail.com</Link>
+      {authPage ? <Link to="/auth/signup">Sign in</Link> : <Link to="/">tommy@gmail.com</Link>}
     </nav>
   );
 };
