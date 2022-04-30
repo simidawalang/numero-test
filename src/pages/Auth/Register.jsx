@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div className="auth-page">
-      <SmallNav authPage/>
+      <SmallNav />
       <div className="auth-page__form-container">
         <h3 className="auth-page__header">
           Director/Business owner <br /> verifications
